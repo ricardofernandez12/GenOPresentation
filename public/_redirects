@@ -1,0 +1,10 @@
+# Serve images from public folder
+/*.png /public/:splat 200
+/*.jpg /public/:splat 200
+/*.jpeg /public/:splat 200
+/*.gif /public/:splat 200
+/*.svg /public/:splat 200
+/*.ico /public/:splat 200
+
+# Fallback to index.html for all other routes
+/* /index.html 200 
